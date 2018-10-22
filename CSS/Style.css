@@ -8,9 +8,11 @@ html {
     width: 100%;
     margin: 0px;
 }
-.col-md-3{
+
+.col-md-3 {
     margin-top: 20px;
 }
+
 ul,
 li {
     list-style-type: none;
@@ -243,8 +245,6 @@ p {
     right: 5%;
 }
 
-
-
 .skillbar {
     position: relative;
     display: block;
@@ -272,7 +272,7 @@ p {
     left: 0;
     width: 110px;
     font-weight: bold;
-    font-size: 13px;
+    font-size: calc(0.3em + 0.3vw);
     color: #ffffff;
     background-color: #509F50;
     -webkit-border-top-left-radius: 3px;
@@ -284,9 +284,10 @@ p {
 }
 
 .skillbar-title span {
-    display: block;
+    display: flex;
     background: rgba(0, 0, 0, 0.1);
-    padding: 0 20px;
+    padding-left: 9px;
+    padding-right: 9px;
     height: 25px;
     line-height: 25px;
     -webkit-border-top-left-radius: 3px;
@@ -316,30 +317,36 @@ p {
     color: #ffffff;
     color: rgba(0, 0, 0, 0.4);
 }
-.tabsImages div{
+
+.tabsImages div {
     margin-left: 20px;
 }
+
 .tabsImages div a img {
     width: 200px;
     height: 270px;
     opacity: 0.8;
     border-radius: 2px;
 }
+
 .tabsImages div a img:hover {
     opacity: 1;
     transition: 200ms all;
     box-shadow: -2px 2px 10px #4B9654;
     transform: scale(1.1);
 }
+
 .contactMe {
     background: url(../Photo/contact.jpg) no-repeat fixed;
     background-size: cover;
 }
+
 #contact {
     padding-top: 30px;
     padding-bottom: 30px;
     color: #517B42;
 }
+
 #contact .title {
     text-transform: uppercase;
     font-size: 25pt;
@@ -451,6 +458,7 @@ p {
     color: #D7FBE2;
     float: left;
 }
+
 .bgImage h6 a {
     color: #D7FBE2;
 }
@@ -459,7 +467,7 @@ p {
     margin-left: 10px;
 }
 
-.bgImage h6  i:hover {
+.bgImage h6 i:hover {
     color: #64C372;
 }
 
@@ -545,12 +553,14 @@ p {
     text-decoration: none;
     color: #4D4D4D;
 }
-.tab-content{
+
+.tab-content {
     min-height: 500px;
 }
-.logos .col-md-4{
+
+.logos .col-md-4 {
     border: 2px dashed #48B46C;
-    border-radius:5px; 
-    margin:5px;
+    border-radius: 5px;
+    margin: 5px;
     margin-top: 20px;
 }
